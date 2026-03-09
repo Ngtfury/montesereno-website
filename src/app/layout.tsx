@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import '../styles/index.css';
 
 export const metadata: Metadata = {
-    title: 'Monte Sereno Munnar',
+    title: 'Monte Sereno Resort & Spa',
     description: 'Experience peaceful mountain living at Monte Sereno Munnar',
 };
 

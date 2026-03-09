@@ -35,7 +35,7 @@ export function Navigation({ onBookNow }: NavigationProps) {
               className="text-2xl text-[#c8a96a]"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
-              Monte Sereno
+              Monte Sereno Resort & Spa
             </h1>
           </a>
 
