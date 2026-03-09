@@ -39,32 +39,32 @@ export function HeroSection({ onBookNow, onExploreRooms }: HeroSectionProps) {
           className="max-w-4xl"
         >
           <h1
-            className="mb-6 text-5xl md:text-7xl lg:text-8xl text-[#f5f1e8] tracking-tight"
+            className="text-4xl sm:text-5xl md:text-7xl text-[#f5f1e8] mb-6 drop-shadow-lg leading-tight md:leading-tight"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Escape to the Serenity of Munnar
           </h1>
 
           <p
-            className="mb-12 text-xl md:text-2xl text-[#e8eceb] max-w-2xl mx-auto"
+            className="text-lg sm:text-xl text-[#e8eceb] mb-10 max-w-2xl mx-auto drop-shadow-md px-2"
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
             Experience peaceful mountain living at Monte Sereno Munnar
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               onClick={onBookNow}
-              className="bg-[#c8a96a] hover:bg-[#b8995a] text-[#0f2e25] px-8 py-6 text-lg rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="bg-[#c8a96a] hover:bg-[#b8995a] text-[#0f2e25] px-8 py-6 rounded-xl text-lg transition-all duration-300 w-full sm:w-auto"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
               Enquire
             </Button>
 
             <Button
-              onClick={onExploreRooms}
               variant="outline"
-              className="bg-white border-2 border-white text-black hover:bg-gray-100 hover:text-black px-8 py-6 text-lg rounded-xl transition-all duration-300"
+              onClick={onExploreRooms}
+              className="border-2 border-white bg-white text-black hover:bg-white/90 px-8 py-6 rounded-xl text-lg backdrop-blur-sm transition-all duration-300 w-full sm:w-auto"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
               Explore Rooms
@@ -77,10 +77,10 @@ export function HeroSection({ onBookNow, onExploreRooms }: HeroSectionProps) {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="w-full max-w-4xl"
+          className="w-full max-w-4xl mx-auto mt-12"
         >
-          <Card className="bg-white/10 backdrop-blur-md border-white/20 rounded-2xl p-6 shadow-2xl">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <Card className="bg-white/10 backdrop-blur-md border-white/20 rounded-2xl p-4 sm:p-6 shadow-2xl">
+            <div className="flex flex-col md:grid md:grid-cols-4 gap-4">
               <div className="flex flex-col">
                 <label className="text-[#e8eceb] text-sm mb-2" style={{ fontFamily: "'Inter', sans-serif" }}>
                   Check In

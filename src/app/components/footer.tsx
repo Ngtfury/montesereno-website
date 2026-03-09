@@ -94,9 +94,13 @@ export function Footer() {
                 <MapPin className="w-5 h-5 text-[#c8a96a] mt-1 flex-shrink-0" />
                 <span className="text-[#e8eceb]">Chithirapuram, Munnar,<br />Kerala 685612, India</span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-[#c8a96a] flex-shrink-0" />
-                <span className="text-[#e8eceb]">+91 85908 29378</span>
+              <li className="flex items-start gap-3">
+                <Phone className="w-5 h-5 text-[#c8a96a] flex-shrink-0 mt-1" />
+                <div className="flex flex-col gap-1">
+                  <span className="text-[#e8eceb]">+91 85908 29378</span>
+                  <span className="text-[#e8eceb]">+91 92076 91739</span>
+                  <span className="text-[#e8eceb]">+91 99464 45363</span>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#c8a96a] flex-shrink-0" />

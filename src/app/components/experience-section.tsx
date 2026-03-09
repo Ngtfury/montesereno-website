@@ -14,9 +14,9 @@ const experiences = [
     image: 'https://images.unsplash.com/photo-1702318192103-80b5f7884fc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMHN1bnJpc2UlMjB2aWV3JTIwbmF0dXJlfGVufDF8fHx8MTc3MzAzNzU5NHww&ixlib=rb-4.1.0&q=80&w=1080'
   },
   {
-    title: 'Cycling Trails',
-    description: 'Explore scenic mountain paths and discover hidden valleys on our guided cycling tours.',
-    image: 'https://images.unsplash.com/photo-1760462167813-25d35e87630f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjeWNsaW5nJTIwdHJhaWwlMjBtb3VudGFpbiUyMHBhdGh8ZW58MXx8fHwxNzczMDM3NTk0fDA&ixlib=rb-4.1.0&q=80&w=1080'
+    title: 'Spa Experience',
+    description: 'Rejuvenate your body and mind with our holisitic Ayurvedic wellness treatments.',
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGF8ZW58MXx8fDE3NzMwNTUwMzR8MA&ixlib=rb-4.1.0&q=80&w=1080'
   },
   {
     title: 'Bonfire Evenings',

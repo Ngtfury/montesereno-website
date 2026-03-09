@@ -1,6 +1,6 @@
 "use client";
 import { motion } from 'motion/react';
-import { Mountain, Wifi, UtensilsCrossed, Plane, Trees, Flame, Map, Bike } from 'lucide-react';
+import { Mountain, Wifi, UtensilsCrossed, Plane, Flower, Flame, Map, Bike } from 'lucide-react';
 import { Card } from './ui/card';
 
 const amenities = [
@@ -8,7 +8,7 @@ const amenities = [
   { icon: Wifi, title: 'Free WiFi', description: 'High-speed internet throughout' },
   { icon: UtensilsCrossed, title: 'Restaurant', description: 'Fine dining with local flavors' },
   { icon: Plane, title: 'Airport Transfer', description: 'Complimentary pickup service' },
-  { icon: Trees, title: 'Garden & Terrace', description: 'Private outdoor spaces' },
+  { icon: Flower, title: 'Spa & Wellness', description: 'Holistic Ayurvedic treatments' },
   { icon: Flame, title: 'Outdoor Fireplace', description: 'Evening bonfire experiences' },
   { icon: Map, title: 'Walking Tours', description: 'Guided nature expeditions' },
   { icon: Bike, title: 'Bicycle Rental', description: 'Explore at your own pace' },

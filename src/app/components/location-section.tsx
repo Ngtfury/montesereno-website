@@ -101,14 +101,16 @@ export function LocationSection() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3">
-                  <Phone className="w-5 h-5 text-[#c8a96a] flex-shrink-0" />
-                  <span
-                    className="text-[#0f2e25]"
+                <div className="flex items-start gap-3">
+                  <Phone className="w-5 h-5 text-[#c8a96a] flex-shrink-0 mt-1" />
+                  <div
+                    className="text-[#0f2e25] flex flex-col gap-1"
                     style={{ fontFamily: "'Inter', sans-serif" }}
                   >
-                    +91 85908 29378
-                  </span>
+                    <span>+91 85908 29378</span>
+                    <span>+91 92076 91739</span>
+                    <span>+91 99464 45363</span>
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-3">
