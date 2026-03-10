@@ -42,14 +42,14 @@ export function HeroSection({ onBookNow, onExploreRooms }: HeroSectionProps) {
             className="text-4xl sm:text-5xl md:text-7xl text-[#f5f1e8] mb-6 drop-shadow-lg leading-tight md:leading-tight"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            Escape to the Serenity of Munnar
+            Escape to the Serenity of Munnar Resort & Spa
           </h1>
 
           <p
             className="text-lg sm:text-xl text-[#e8eceb] mb-10 max-w-2xl mx-auto drop-shadow-md px-2"
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
-            Experience peaceful mountain living at Monte Sereno Munnar
+            Experience peaceful mountain living and rejuvenating spa wellness at Monte Sereno Munnar
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

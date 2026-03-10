@@ -3,6 +3,7 @@
 import { Navigation } from './components/navigation';
 import { HeroSection } from './components/hero-section';
 import { AboutSection } from './components/about-section';
+import { SpaSection } from './components/spa-section';
 import { AmenitiesSection } from './components/amenities-section';
 import { ExperienceSection } from './components/experience-section';
 import { GallerySection } from './components/gallery-section';
@@ -41,6 +42,10 @@ export default function App() {
 
         <section id="about">
           <AboutSection />
+        </section>
+
+        <section id="spa">
+          <SpaSection />
         </section>
 
         <section id="amenities">
