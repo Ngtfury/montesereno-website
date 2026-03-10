@@ -50,7 +50,7 @@ export function HeroSection({ onBookNow, onExploreRooms }: HeroSectionProps) {
               className="bg-[#c8a96a] text-[#0f2e25] px-10 py-4 rounded-full text-xl md:text-2xl font-medium shadow-xl hover:bg-[#b8995a] transition-colors cursor-default tracking-wide uppercase"
               style={{ fontFamily: "'Inter', sans-serif", letterSpacing: "0.1em" }}
             >
-              Resort & Spa
+              Monte Sereno Resort & Spa
             </div>
 
             <div
