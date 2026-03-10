@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Calendar, Users } from 'lucide-react';
+import { Calendar, Users, MapPin } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
 
@@ -39,18 +39,28 @@ export function HeroSection({ onBookNow, onExploreRooms }: HeroSectionProps) {
           className="max-w-4xl"
         >
           <h1
-            className="text-4xl sm:text-5xl md:text-7xl text-[#f5f1e8] mb-6 drop-shadow-lg leading-tight md:leading-tight"
-            style={{ fontFamily: "'Playfair Display', serif" }}
+            className="text-5xl sm:text-6xl md:text-8xl text-[#f5f1e8] mb-6 drop-shadow-2xl leading-[1.1]"
+            style={{ fontFamily: "'Playfair Display', serif", letterSpacing: "-0.02em" }}
           >
-            Escape to the Serenity of Munnar Resort & Spa
+            Escape to the Serenity of Munnar
           </h1>
 
-          <p
-            className="text-lg sm:text-xl text-[#e8eceb] mb-10 max-w-2xl mx-auto drop-shadow-md px-2"
-            style={{ fontFamily: "'Inter', sans-serif" }}
-          >
-            Experience peaceful mountain living and rejuvenating spa wellness at Monte Sereno Munnar
-          </p>
+          <div className="flex flex-col items-center justify-center gap-8 mb-16">
+            <div
+              className="bg-[#c8a96a] text-[#0f2e25] px-10 py-4 rounded-full text-xl md:text-2xl font-medium shadow-xl hover:bg-[#b8995a] transition-colors cursor-default tracking-wide uppercase"
+              style={{ fontFamily: "'Inter', sans-serif", letterSpacing: "0.1em" }}
+            >
+              Resort & Spa
+            </div>
+
+            <div
+              className="flex items-center gap-2 text-[#e8eceb] text-lg md:text-xl font-light opacity-90 drop-shadow-md"
+              style={{ fontFamily: "'Inter', sans-serif" }}
+            >
+              <MapPin className="w-5 h-5 text-[#c8a96a]" />
+              Anachal, Munnar, Kerala
+            </div>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button

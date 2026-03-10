@@ -37,8 +37,8 @@ export function ExperienceSection() {
           className="text-center mb-16"
         >
           <h2
-            className="text-4xl md:text-6xl text-[#f5f1e8] mb-4"
-            style={{ fontFamily: "'Playfair Display', serif" }}
+            className="text-4xl md:text-5xl lg:text-6xl text-[#f5f1e8] mb-6 drop-shadow-sm"
+            style={{ fontFamily: "'Playfair Display', serif", letterSpacing: "-0.01em" }}
           >
             Unforgettable Experiences
           </h2>
@@ -64,13 +64,13 @@ export function ExperienceSection() {
                   <img
                     src={experience.image}
                     alt={experience.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0f2e25]/80 to-transparent" />
 
                   <div className="absolute bottom-0 left-0 right-0 p-8">
                     <h3
-                      className="text-3xl text-[#f5f1e8] mb-2"
+                      className="text-3xl md:text-4xl text-[#f5f1e8] mb-3"
                       style={{ fontFamily: "'Playfair Display', serif" }}
                     >
                       {experience.title}

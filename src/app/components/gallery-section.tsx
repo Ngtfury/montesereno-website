@@ -41,8 +41,8 @@ export function GallerySection() {
           className="text-center mb-16"
         >
           <h2
-            className="text-4xl md:text-6xl text-[#0f2e25] mb-4"
-            style={{ fontFamily: "'Playfair Display', serif" }}
+            className="text-4xl md:text-5xl lg:text-6xl text-[#0f2e25] mb-6 drop-shadow-sm"
+            style={{ fontFamily: "'Playfair Display', serif", letterSpacing: "-0.01em" }}
           >
             Gallery
           </h2>
@@ -73,7 +73,7 @@ export function GallerySection() {
                 <img
                   src={image.url}
                   alt={image.alt}
-                  className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-auto object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
               </motion.div>
             ))}

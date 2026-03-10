@@ -26,8 +26,8 @@ export function AmenitiesSection() {
           className="text-center mb-16"
         >
           <h2
-            className="text-4xl md:text-6xl text-[#0f2e25] mb-4"
-            style={{ fontFamily: "'Playfair Display', serif" }}
+            className="text-4xl md:text-5xl lg:text-6xl text-[#0f2e25] mb-6 drop-shadow-sm"
+            style={{ fontFamily: "'Playfair Display', serif", letterSpacing: "-0.01em" }}
           >
             Resort Amenities
           </h2>
@@ -54,13 +54,13 @@ export function AmenitiesSection() {
                     <amenity.icon className="w-8 h-8 text-[#c8a96a]" />
                   </div>
                   <h3
-                    className="text-xl text-[#0f2e25] mb-2"
+                    className="text-xl md:text-2xl text-[#0f2e25] mb-3"
                     style={{ fontFamily: "'Playfair Display', serif" }}
                   >
                     {amenity.title}
                   </h3>
                   <p
-                    className="text-sm text-[#0f2e25]/70"
+                    className="text-sm md:text-base text-[#0f2e25]/70 leading-relaxed font-light"
                     style={{ fontFamily: "'Inter', sans-serif" }}
                   >
                     {amenity.description}

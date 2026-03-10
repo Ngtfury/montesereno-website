@@ -13,8 +13,10 @@ import { FinalCtaSection } from './components/final-cta-section';
 import { Footer } from './components/footer';
 
 export default function App() {
-  const handleBookNow = (details?: { checkIn?: string, checkOut?: string, guests?: string }) => {
-    let message = "Hello, I would like to enquire about booking a stay at Monte Sereno Munnar.";
+  const handleBookNow = (details?: { checkIn?: string, checkOut?: string, guests?: string, isSpa?: boolean }) => {
+    let message = details?.isSpa
+      ? "Hello, I would like to enquire about booking a Spa Treatment at Sereno Spa & Wellness."
+      : "Hello, I would like to enquire about booking a stay at Monte Sereno Munnar.";
 
     if (details && (details.checkIn || details.checkOut || details.guests)) {
       message += `\n\nBooking Details:`;
@@ -45,7 +47,7 @@ export default function App() {
         </section>
 
         <section id="spa">
-          <SpaSection />
+          <SpaSection onBookSpa={() => handleBookNow({ isSpa: true })} />
         </section>
 
         <section id="amenities">

@@ -14,13 +14,13 @@ export function AboutSection() {
             transition={{ duration: 0.8 }}
           >
             <h2
-              className="text-4xl md:text-6xl text-[#0f2e25] mb-6 leading-tight"
-              style={{ fontFamily: "'Playfair Display', serif" }}
+              className="text-5xl md:text-6xl text-[#0f2e25] mb-8 leading-tight drop-shadow-sm"
+              style={{ fontFamily: "'Playfair Display', serif", letterSpacing: "-0.01em" }}
             >
               A Sanctuary in the Mountains
             </h2>
 
-            <div className="space-y-4 text-[#0f2e25]/80 text-lg leading-relaxed" style={{ fontFamily: "'Inter', sans-serif" }}>
+            <div className="space-y-6 text-[#0f2e25]/80 text-lg md:text-xl font-light leading-relaxed" style={{ fontFamily: "'Inter', sans-serif" }}>
               <p>
                 Nestled in the heart of Munnar's verdant tea estates, Monte Sereno offers an unparalleled escape into nature's embrace. Our boutique resort combines luxury with the tranquility of the Western Ghats, creating an oasis of peace and rejuvenation.
               </p>
